@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF22059E154FE43B00BF6267 /* 거북이.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22058A154FE43B00BF6267 /* 거북이.mp3 */; };
+		EF22059F154FE43B00BF6267 /* 고래.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22058B154FE43B00BF6267 /* 고래.mp3 */; };
+		EF2205A0154FE43B00BF6267 /* 곰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22058C154FE43B00BF6267 /* 곰.mp3 */; };
+		EF2205A1154FE43B00BF6267 /* 기린.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22058D154FE43B00BF6267 /* 기린.mp3 */; };
+		EF2205A2154FE43B00BF6267 /* 낙타.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22058E154FE43B00BF6267 /* 낙타.mp3 */; };
+		EF2205A3154FE43B00BF6267 /* 바다거북.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22058F154FE43B00BF6267 /* 바다거북.mp3 */; };
+		EF2205A4154FE43B00BF6267 /* 뱀.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220590154FE43B00BF6267 /* 뱀.mp3 */; };
+		EF2205A5154FE43B00BF6267 /* 북극곰.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220591154FE43B00BF6267 /* 북극곰.mp3 */; };
+		EF2205A6154FE43B00BF6267 /* 사자.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220592154FE43B00BF6267 /* 사자.mp3 */; };
+		EF2205A7154FE43B00BF6267 /* 새.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220593154FE43B00BF6267 /* 새.mp3 */; };
+		EF2205A8154FE43B00BF6267 /* 얼룩말.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220594154FE43B00BF6267 /* 얼룩말.mp3 */; };
+		EF2205A9154FE43B00BF6267 /* 원숭이.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220595154FE43B00BF6267 /* 원숭이.mp3 */; };
+		EF2205AA154FE43B00BF6267 /* 코끼리.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220596154FE43B00BF6267 /* 코끼리.mp3 */; };
+		EF2205AB154FE43B00BF6267 /* 코뿔소.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220597154FE43B00BF6267 /* 코뿔소.mp3 */; };
+		EF2205AC154FE43B00BF6267 /* 팽귄.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220598154FE43B00BF6267 /* 팽귄.mp3 */; };
+		EF2205AD154FE43B00BF6267 /* 표범.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF220599154FE43B00BF6267 /* 표범.mp3 */; };
+		EF2205AE154FE43B00BF6267 /* 하마.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22059A154FE43B00BF6267 /* 하마.mp3 */; };
+		EF2205AF154FE43B00BF6267 /* 해마.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22059B154FE43B00BF6267 /* 해마.mp3 */; };
+		EF2205B0154FE43B00BF6267 /* 해파리.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22059C154FE43B00BF6267 /* 해파리.mp3 */; };
+		EF2205B1154FE43B00BF6267 /* 호랑이.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EF22059D154FE43B00BF6267 /* 호랑이.mp3 */; };
+		EF356BD1146C0962000E12C6 /* IMG_SIL_곰.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BA9146C0962000E12C6 /* IMG_SIL_곰.png */; };
+		EF356BD2146C0962000E12C6 /* IMG_SIL_새.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BAA146C0962000E12C6 /* IMG_SIL_새.png */; };
+		EF356BD3146C0962000E12C6 /* IMG_SIL_낙타.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BAB146C0962000E12C6 /* IMG_SIL_낙타.png */; };
+		EF356BD4146C0962000E12C6 /* IMG_SIL_코끼리.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BAC146C0962000E12C6 /* IMG_SIL_코끼리.png */; };
+		EF356BD5146C0962000E12C6 /* IMG_SIL_기린.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BAD146C0962000E12C6 /* IMG_SIL_기린.png */; };
+		EF356BD6146C0962000E12C6 /* IMG_SIL_하마.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BAE146C0962000E12C6 /* IMG_SIL_하마.png */; };
+		EF356BD7146C0962000E12C6 /* IMG_SIL_해파리.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BAF146C0962000E12C6 /* IMG_SIL_해파리.png */; };
+		EF356BD8146C0962000E12C6 /* IMG_SIL_표범.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB0146C0962000E12C6 /* IMG_SIL_표범.png */; };
+		EF356BD9146C0962000E12C6 /* IMG_SIL_사자.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB1146C0962000E12C6 /* IMG_SIL_사자.png */; };
+		EF356BDA146C0962000E12C6 /* IMG_SIL_원숭이.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB2146C0962000E12C6 /* IMG_SIL_원숭이.png */; };
+		EF356BDB146C0962000E12C6 /* IMG_SIL_팽귄.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB3146C0962000E12C6 /* IMG_SIL_팽귄.png */; };
+		EF356BDC146C0962000E12C6 /* IMG_SIL_북극곰.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB4146C0962000E12C6 /* IMG_SIL_북극곰.png */; };
+		EF356BDD146C0962000E12C6 /* IMG_SIL_코뿔소.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB5146C0962000E12C6 /* IMG_SIL_코뿔소.png */; };
+		EF356BDE146C0962000E12C6 /* IMG_SIL_해마.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB6146C0962000E12C6 /* IMG_SIL_해마.png */; };
+		EF356BDF146C0962000E12C6 /* IMG_SIL_뱀.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB7146C0962000E12C6 /* IMG_SIL_뱀.png */; };
+		EF356BE0146C0962000E12C6 /* IMG_SIL_호랑이.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB8146C0962000E12C6 /* IMG_SIL_호랑이.png */; };
+		EF356BE1146C0962000E12C6 /* IMG_SIL_거북이.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BB9146C0962000E12C6 /* IMG_SIL_거북이.png */; };
+		EF356BE2146C0962000E12C6 /* IMG_SIL_바다거북.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BBA146C0962000E12C6 /* IMG_SIL_바다거북.png */; };
+		EF356BE3146C0962000E12C6 /* IMG_SIL_고래.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BBB146C0962000E12C6 /* IMG_SIL_고래.png */; };
+		EF356BE4146C0962000E12C6 /* IMG_SIL_얼룩말.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BBC146C0962000E12C6 /* IMG_SIL_얼룩말.png */; };
+		EF356BE5146C0962000E12C6 /* IMG_TRANS_곰.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BBD146C0962000E12C6 /* IMG_TRANS_곰.png */; };
+		EF356BE6146C0962000E12C6 /* IMG_TRANS_새.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BBE146C0962000E12C6 /* IMG_TRANS_새.png */; };
+		EF356BE7146C0962000E12C6 /* IMG_TRANS_낙타.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BBF146C0962000E12C6 /* IMG_TRANS_낙타.png */; };
+		EF356BE8146C0962000E12C6 /* IMG_TRANS_코끼리.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC0146C0962000E12C6 /* IMG_TRANS_코끼리.png */; };
+		EF356BE9146C0962000E12C6 /* IMG_TRANS_기린.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC1146C0962000E12C6 /* IMG_TRANS_기린.png */; };
+		EF356BEA146C0962000E12C6 /* IMG_TRANS_하마.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC2146C0962000E12C6 /* IMG_TRANS_하마.png */; };
+		EF356BEB146C0962000E12C6 /* IMG_TRANS_해파리.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC3146C0962000E12C6 /* IMG_TRANS_해파리.png */; };
+		EF356BEC146C0962000E12C6 /* IMG_TRANS_표범.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC4146C0962000E12C6 /* IMG_TRANS_표범.png */; };
+		EF356BED146C0962000E12C6 /* IMG_TRANS_사자.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC5146C0962000E12C6 /* IMG_TRANS_사자.png */; };
+		EF356BEE146C0962000E12C6 /* IMG_TRANS_원숭이.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC6146C0962000E12C6 /* IMG_TRANS_원숭이.png */; };
+		EF356BEF146C0962000E12C6 /* IMG_TRANS_팽귄.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC7146C0962000E12C6 /* IMG_TRANS_팽귄.png */; };
+		EF356BF0146C0962000E12C6 /* IMG_TRANS_북극곰.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC8146C0962000E12C6 /* IMG_TRANS_북극곰.png */; };
+		EF356BF1146C0962000E12C6 /* IMG_TRANS_코뿔소.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BC9146C0962000E12C6 /* IMG_TRANS_코뿔소.png */; };
+		EF356BF2146C0962000E12C6 /* IMG_TRANS_해마.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BCA146C0962000E12C6 /* IMG_TRANS_해마.png */; };
+		EF356BF3146C0962000E12C6 /* IMG_TRANS_뱀.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BCB146C0962000E12C6 /* IMG_TRANS_뱀.png */; };
+		EF356BF4146C0962000E12C6 /* IMG_TRANS_호랑이.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BCC146C0962000E12C6 /* IMG_TRANS_호랑이.png */; };
+		EF356BF5146C0962000E12C6 /* IMG_TRANS_거북이.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BCD146C0962000E12C6 /* IMG_TRANS_거북이.png */; };
+		EF356BF6146C0962000E12C6 /* IMG_TRANS_바다거북.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BCE146C0962000E12C6 /* IMG_TRANS_바다거북.png */; };
+		EF356BF7146C0962000E12C6 /* IMG_TRANS_고래.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BCF146C0962000E12C6 /* IMG_TRANS_고래.png */; };
+		EF356BF8146C0962000E12C6 /* IMG_TRANS_얼룩말.png in Resources */ = {isa = PBXBuildFile; fileRef = EF356BD0146C0962000E12C6 /* IMG_TRANS_얼룩말.png */; };
+		EF56279F154F8A66005D9ECB /* libGoogleAdMobAds.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF56279E154F8A66005D9ECB /* libGoogleAdMobAds.a */; };
+		EF5627A1154F8AB1005D9ECB /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5627A0154F8AB1005D9ECB /* AudioToolbox.framework */; };
+		EF5627A3154F8AB8005D9ECB /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5627A2154F8AB8005D9ECB /* MessageUI.framework */; };
+		EF5627A5154F8AC1005D9ECB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5627A4154F8AC1005D9ECB /* SystemConfiguration.framework */; };
+		EFC1A5AE1582ED2A00357431 /* intro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFC1A5AD1582ED2A00357431 /* intro.mp3 */; };
+		EFC66B32146D5363000BAC81 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC66B31146D5363000BAC81 /* Icon.png */; };
+		EFC66B34146D5368000BAC81 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC66B33146D5368000BAC81 /* Icon@2x.png */; };
+		EFC66B36146D536F000BAC81 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC66B35146D536F000BAC81 /* Default.png */; };
+		EFC66B38146D5375000BAC81 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC66B37146D5375000BAC81 /* Default@2x.png */; };
+		EFC66B3A146D538D000BAC81 /* Icon_72x72.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC66B39146D538D000BAC81 /* Icon_72x72.png */; };
+		EFC66B3C146D53A6000BAC81 /* Default-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = EFC66B3B146D53A6000BAC81 /* Default-Portrait~ipad.png */; };
+		EFFE6E05146A3EB300394DD7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE6E04146A3EB300394DD7 /* UIKit.framework */; };
+		EFFE6E07146A3EB300394DD7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE6E06146A3EB300394DD7 /* Foundation.framework */; };
+		EFFE6E09146A3EB300394DD7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE6E08146A3EB300394DD7 /* CoreGraphics.framework */; };
+		EFFE6E0F146A3EB300394DD7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E0D146A3EB300394DD7 /* InfoPlist.strings */; };
+		EFFE6E11146A3EB300394DD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE6E10146A3EB300394DD7 /* main.m */; };
+		EFFE6E15146A3EB300394DD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE6E14146A3EB300394DD7 /* AppDelegate.m */; };
+		EFFE6E18146A3EB300394DD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFFE6E17146A3EB300394DD7 /* ViewController.m */; };
+		EFFE6E1B146A3EB300394DD7 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E19146A3EB300394DD7 /* ViewController_iPhone.xib */; };
+		EFFE6E1E146A3EB300394DD7 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E1C146A3EB300394DD7 /* ViewController_iPad.xib */; };
+		EFFE6E29146A42BC00394DD7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFFE6E28146A42BC00394DD7 /* AVFoundation.framework */; };
+		EFFE6E5E146BEAC800394DD7 /* angry_monkey.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E5C146BEAC800394DD7 /* angry_monkey.png */; };
+		EFFE6E5F146BEAC800394DD7 /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E5D146BEAC800394DD7 /* smile.png */; };
+		EFFE6E68146BEB0100394DD7 /* Clapping Crowd Studio 01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E63146BEB0100394DD7 /* Clapping Crowd Studio 01.mp3 */; };
+		EFFE6E69146BEB0100394DD7 /* Kids Cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E64146BEB0100394DD7 /* Kids Cheering.mp3 */; };
+		EFFE6E6A146BEB0100394DD7 /* O.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E65146BEB0100394DD7 /* O.mp3 */; };
+		EFFE6E6B146BEB0100394DD7 /* X.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E66146BEB0100394DD7 /* X.mp3 */; };
+		EFFE6E6C146BEB0100394DD7 /* X2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EFFE6E67146BEB0100394DD7 /* X2.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EF22058A154FE43B00BF6267 /* 거북이.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "거북이.mp3"; sourceTree = "<group>"; };
+		EF22058B154FE43B00BF6267 /* 고래.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "고래.mp3"; sourceTree = "<group>"; };
+		EF22058C154FE43B00BF6267 /* 곰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "곰.mp3"; sourceTree = "<group>"; };
+		EF22058D154FE43B00BF6267 /* 기린.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "기린.mp3"; sourceTree = "<group>"; };
+		EF22058E154FE43B00BF6267 /* 낙타.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "낙타.mp3"; sourceTree = "<group>"; };
+		EF22058F154FE43B00BF6267 /* 바다거북.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "바다거북.mp3"; sourceTree = "<group>"; };
+		EF220590154FE43B00BF6267 /* 뱀.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "뱀.mp3"; sourceTree = "<group>"; };
+		EF220591154FE43B00BF6267 /* 북극곰.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "북극곰.mp3"; sourceTree = "<group>"; };
+		EF220592154FE43B00BF6267 /* 사자.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "사자.mp3"; sourceTree = "<group>"; };
+		EF220593154FE43B00BF6267 /* 새.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "새.mp3"; sourceTree = "<group>"; };
+		EF220594154FE43B00BF6267 /* 얼룩말.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "얼룩말.mp3"; sourceTree = "<group>"; };
+		EF220595154FE43B00BF6267 /* 원숭이.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "원숭이.mp3"; sourceTree = "<group>"; };
+		EF220596154FE43B00BF6267 /* 코끼리.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "코끼리.mp3"; sourceTree = "<group>"; };
+		EF220597154FE43B00BF6267 /* 코뿔소.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "코뿔소.mp3"; sourceTree = "<group>"; };
+		EF220598154FE43B00BF6267 /* 팽귄.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "팽귄.mp3"; sourceTree = "<group>"; };
+		EF220599154FE43B00BF6267 /* 표범.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "표범.mp3"; sourceTree = "<group>"; };
+		EF22059A154FE43B00BF6267 /* 하마.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "하마.mp3"; sourceTree = "<group>"; };
+		EF22059B154FE43B00BF6267 /* 해마.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "해마.mp3"; sourceTree = "<group>"; };
+		EF22059C154FE43B00BF6267 /* 해파리.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "해파리.mp3"; sourceTree = "<group>"; };
+		EF22059D154FE43B00BF6267 /* 호랑이.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "호랑이.mp3"; sourceTree = "<group>"; };
+		EF356BA9146C0962000E12C6 /* IMG_SIL_곰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_곰.png"; sourceTree = "<group>"; };
+		EF356BAA146C0962000E12C6 /* IMG_SIL_새.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_새.png"; sourceTree = "<group>"; };
+		EF356BAB146C0962000E12C6 /* IMG_SIL_낙타.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_낙타.png"; sourceTree = "<group>"; };
+		EF356BAC146C0962000E12C6 /* IMG_SIL_코끼리.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_코끼리.png"; sourceTree = "<group>"; };
+		EF356BAD146C0962000E12C6 /* IMG_SIL_기린.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_기린.png"; sourceTree = "<group>"; };
+		EF356BAE146C0962000E12C6 /* IMG_SIL_하마.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_하마.png"; sourceTree = "<group>"; };
+		EF356BAF146C0962000E12C6 /* IMG_SIL_해파리.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_해파리.png"; sourceTree = "<group>"; };
+		EF356BB0146C0962000E12C6 /* IMG_SIL_표범.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_표범.png"; sourceTree = "<group>"; };
+		EF356BB1146C0962000E12C6 /* IMG_SIL_사자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_사자.png"; sourceTree = "<group>"; };
+		EF356BB2146C0962000E12C6 /* IMG_SIL_원숭이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_원숭이.png"; sourceTree = "<group>"; };
+		EF356BB3146C0962000E12C6 /* IMG_SIL_팽귄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_팽귄.png"; sourceTree = "<group>"; };
+		EF356BB4146C0962000E12C6 /* IMG_SIL_북극곰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_북극곰.png"; sourceTree = "<group>"; };
+		EF356BB5146C0962000E12C6 /* IMG_SIL_코뿔소.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_코뿔소.png"; sourceTree = "<group>"; };
+		EF356BB6146C0962000E12C6 /* IMG_SIL_해마.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_해마.png"; sourceTree = "<group>"; };
+		EF356BB7146C0962000E12C6 /* IMG_SIL_뱀.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_뱀.png"; sourceTree = "<group>"; };
+		EF356BB8146C0962000E12C6 /* IMG_SIL_호랑이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_호랑이.png"; sourceTree = "<group>"; };
+		EF356BB9146C0962000E12C6 /* IMG_SIL_거북이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_거북이.png"; sourceTree = "<group>"; };
+		EF356BBA146C0962000E12C6 /* IMG_SIL_바다거북.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_바다거북.png"; sourceTree = "<group>"; };
+		EF356BBB146C0962000E12C6 /* IMG_SIL_고래.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_고래.png"; sourceTree = "<group>"; };
+		EF356BBC146C0962000E12C6 /* IMG_SIL_얼룩말.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_SIL_얼룩말.png"; sourceTree = "<group>"; };
+		EF356BBD146C0962000E12C6 /* IMG_TRANS_곰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_곰.png"; sourceTree = "<group>"; };
+		EF356BBE146C0962000E12C6 /* IMG_TRANS_새.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_새.png"; sourceTree = "<group>"; };
+		EF356BBF146C0962000E12C6 /* IMG_TRANS_낙타.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_낙타.png"; sourceTree = "<group>"; };
+		EF356BC0146C0962000E12C6 /* IMG_TRANS_코끼리.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_코끼리.png"; sourceTree = "<group>"; };
+		EF356BC1146C0962000E12C6 /* IMG_TRANS_기린.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_기린.png"; sourceTree = "<group>"; };
+		EF356BC2146C0962000E12C6 /* IMG_TRANS_하마.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_하마.png"; sourceTree = "<group>"; };
+		EF356BC3146C0962000E12C6 /* IMG_TRANS_해파리.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_해파리.png"; sourceTree = "<group>"; };
+		EF356BC4146C0962000E12C6 /* IMG_TRANS_표범.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_표범.png"; sourceTree = "<group>"; };
+		EF356BC5146C0962000E12C6 /* IMG_TRANS_사자.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_사자.png"; sourceTree = "<group>"; };
+		EF356BC6146C0962000E12C6 /* IMG_TRANS_원숭이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_원숭이.png"; sourceTree = "<group>"; };
+		EF356BC7146C0962000E12C6 /* IMG_TRANS_팽귄.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_팽귄.png"; sourceTree = "<group>"; };
+		EF356BC8146C0962000E12C6 /* IMG_TRANS_북극곰.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_북극곰.png"; sourceTree = "<group>"; };
+		EF356BC9146C0962000E12C6 /* IMG_TRANS_코뿔소.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_코뿔소.png"; sourceTree = "<group>"; };
+		EF356BCA146C0962000E12C6 /* IMG_TRANS_해마.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_해마.png"; sourceTree = "<group>"; };
+		EF356BCB146C0962000E12C6 /* IMG_TRANS_뱀.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_뱀.png"; sourceTree = "<group>"; };
+		EF356BCC146C0962000E12C6 /* IMG_TRANS_호랑이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_호랑이.png"; sourceTree = "<group>"; };
+		EF356BCD146C0962000E12C6 /* IMG_TRANS_거북이.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_거북이.png"; sourceTree = "<group>"; };
+		EF356BCE146C0962000E12C6 /* IMG_TRANS_바다거북.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_바다거북.png"; sourceTree = "<group>"; };
+		EF356BCF146C0962000E12C6 /* IMG_TRANS_고래.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_고래.png"; sourceTree = "<group>"; };
+		EF356BD0146C0962000E12C6 /* IMG_TRANS_얼룩말.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "IMG_TRANS_얼룩말.png"; sourceTree = "<group>"; };
+		EF562798154F8A66005D9ECB /* GADBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerView.h; path = ../../../../Desktop/GoogleAdMobAdsSDK/GADBannerView.h; sourceTree = "<group>"; };
+		EF562799154F8A66005D9ECB /* GADBannerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADBannerViewDelegate.h; path = ../../../../Desktop/GoogleAdMobAdsSDK/GADBannerViewDelegate.h; sourceTree = "<group>"; };
+		EF56279A154F8A66005D9ECB /* GADInterstitial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitial.h; path = ../../../../Desktop/GoogleAdMobAdsSDK/GADInterstitial.h; sourceTree = "<group>"; };
+		EF56279B154F8A66005D9ECB /* GADInterstitialDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADInterstitialDelegate.h; path = ../../../../Desktop/GoogleAdMobAdsSDK/GADInterstitialDelegate.h; sourceTree = "<group>"; };
+		EF56279C154F8A66005D9ECB /* GADRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequest.h; path = ../../../../Desktop/GoogleAdMobAdsSDK/GADRequest.h; sourceTree = "<group>"; };
+		EF56279D154F8A66005D9ECB /* GADRequestError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GADRequestError.h; path = ../../../../Desktop/GoogleAdMobAdsSDK/GADRequestError.h; sourceTree = "<group>"; };
+		EF56279E154F8A66005D9ECB /* libGoogleAdMobAds.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleAdMobAds.a; path = ../../../../Desktop/GoogleAdMobAdsSDK/libGoogleAdMobAds.a; sourceTree = "<group>"; };
+		EF5627A0154F8AB1005D9ECB /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EF5627A2154F8AB8005D9ECB /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		EF5627A4154F8AC1005D9ECB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EFC1A5AD1582ED2A00357431 /* intro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = intro.mp3; sourceTree = "<group>"; };
+		EFC66B31146D5363000BAC81 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		EFC66B33146D5368000BAC81 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		EFC66B35146D536F000BAC81 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		EFC66B37146D5375000BAC81 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		EFC66B39146D538D000BAC81 /* Icon_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon_72x72.png; sourceTree = "<group>"; };
+		EFC66B3B146D53A6000BAC81 /* Default-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-Portrait~ipad.png"; sourceTree = "<group>"; };
+		EFFE6E00146A3EB300394DD7 /* Animal Match.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Match.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFFE6E04146A3EB300394DD7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EFFE6E06146A3EB300394DD7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EFFE6E08146A3EB300394DD7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EFFE6E0C146A3EB300394DD7 /* Animal Match-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Animal Match-Info.plist"; sourceTree = "<group>"; };
+		EFFE6E0E146A3EB300394DD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EFFE6E10146A3EB300394DD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EFFE6E12146A3EB300394DD7 /* Animal Match-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Animal Match-Prefix.pch"; sourceTree = "<group>"; };
+		EFFE6E13146A3EB300394DD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EFFE6E14146A3EB300394DD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EFFE6E16146A3EB300394DD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EFFE6E17146A3EB300394DD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EFFE6E1A146A3EB300394DD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		EFFE6E1D146A3EB300394DD7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		EFFE6E28146A42BC00394DD7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EFFE6E5C146BEAC800394DD7 /* angry_monkey.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = angry_monkey.png; sourceTree = "<group>"; };
+		EFFE6E5D146BEAC800394DD7 /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
+		EFFE6E63146BEB0100394DD7 /* Clapping Crowd Studio 01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Clapping Crowd Studio 01.mp3"; sourceTree = "<group>"; };
+		EFFE6E64146BEB0100394DD7 /* Kids Cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kids Cheering.mp3"; sourceTree = "<group>"; };
+		EFFE6E65146BEB0100394DD7 /* O.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = O.mp3; sourceTree = "<group>"; };
+		EFFE6E66146BEB0100394DD7 /* X.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = X.mp3; sourceTree = "<group>"; };
+		EFFE6E67146BEB0100394DD7 /* X2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = X2.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFFE6DFD146A3EB300394DD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF5627A5154F8AC1005D9ECB /* SystemConfiguration.framework in Frameworks */,
+				EF5627A3154F8AB8005D9ECB /* MessageUI.framework in Frameworks */,
+				EF5627A1154F8AB1005D9ECB /* AudioToolbox.framework in Frameworks */,
+				EFFE6E29146A42BC00394DD7 /* AVFoundation.framework in Frameworks */,
+				EFFE6E05146A3EB300394DD7 /* UIKit.framework in Frameworks */,
+				EFFE6E07146A3EB300394DD7 /* Foundation.framework in Frameworks */,
+				EFFE6E09146A3EB300394DD7 /* CoreGraphics.framework in Frameworks */,
+				EF56279F154F8A66005D9ECB /* libGoogleAdMobAds.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF22055C154FCF2800BF6267 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				EF22058A154FE43B00BF6267 /* 거북이.mp3 */,
+				EF22058B154FE43B00BF6267 /* 고래.mp3 */,
+				EF22058C154FE43B00BF6267 /* 곰.mp3 */,
+				EF22058D154FE43B00BF6267 /* 기린.mp3 */,
+				EF22058E154FE43B00BF6267 /* 낙타.mp3 */,
+				EF22058F154FE43B00BF6267 /* 바다거북.mp3 */,
+				EF220590154FE43B00BF6267 /* 뱀.mp3 */,
+				EF220591154FE43B00BF6267 /* 북극곰.mp3 */,
+				EF220592154FE43B00BF6267 /* 사자.mp3 */,
+				EF220593154FE43B00BF6267 /* 새.mp3 */,
+				EF220594154FE43B00BF6267 /* 얼룩말.mp3 */,
+				EF220595154FE43B00BF6267 /* 원숭이.mp3 */,
+				EF220596154FE43B00BF6267 /* 코끼리.mp3 */,
+				EF220597154FE43B00BF6267 /* 코뿔소.mp3 */,
+				EF220598154FE43B00BF6267 /* 팽귄.mp3 */,
+				EF220599154FE43B00BF6267 /* 표범.mp3 */,
+				EF22059A154FE43B00BF6267 /* 하마.mp3 */,
+				EF22059B154FE43B00BF6267 /* 해마.mp3 */,
+				EF22059C154FE43B00BF6267 /* 해파리.mp3 */,
+				EF22059D154FE43B00BF6267 /* 호랑이.mp3 */,
+			);
+			name = sound;
+			sourceTree = "<group>";
+		};
+		EFFE6DF5146A3EB200394DD7 = {
+			isa = PBXGroup;
+			children = (
+				EF22055C154FCF2800BF6267 /* sound */,
+				EF562798154F8A66005D9ECB /* GADBannerView.h */,
+				EF562799154F8A66005D9ECB /* GADBannerViewDelegate.h */,
+				EF56279A154F8A66005D9ECB /* GADInterstitial.h */,
+				EF56279B154F8A66005D9ECB /* GADInterstitialDelegate.h */,
+				EF56279C154F8A66005D9ECB /* GADRequest.h */,
+				EF56279D154F8A66005D9ECB /* GADRequestError.h */,
+				EF56279E154F8A66005D9ECB /* libGoogleAdMobAds.a */,
+				EFC66B3B146D53A6000BAC81 /* Default-Portrait~ipad.png */,
+				EFC66B39146D538D000BAC81 /* Icon_72x72.png */,
+				EFC66B37146D5375000BAC81 /* Default@2x.png */,
+				EFC66B35146D536F000BAC81 /* Default.png */,
+				EFC66B33146D5368000BAC81 /* Icon@2x.png */,
+				EFC66B31146D5363000BAC81 /* Icon.png */,
+				EFFE6E0A146A3EB300394DD7 /* Animal Match */,
+				EFFE6E03146A3EB300394DD7 /* Frameworks */,
+				EFFE6E01146A3EB300394DD7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFFE6E01146A3EB300394DD7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE6E00146A3EB300394DD7 /* Animal Match.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFFE6E03146A3EB300394DD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF5627A4154F8AC1005D9ECB /* SystemConfiguration.framework */,
+				EF5627A2154F8AB8005D9ECB /* MessageUI.framework */,
+				EF5627A0154F8AB1005D9ECB /* AudioToolbox.framework */,
+				EFFE6E28146A42BC00394DD7 /* AVFoundation.framework */,
+				EFFE6E04146A3EB300394DD7 /* UIKit.framework */,
+				EFFE6E06146A3EB300394DD7 /* Foundation.framework */,
+				EFFE6E08146A3EB300394DD7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EFFE6E0A146A3EB300394DD7 /* Animal Match */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE6E13146A3EB300394DD7 /* AppDelegate.h */,
+				EFFE6E14146A3EB300394DD7 /* AppDelegate.m */,
+				EFFE6E16146A3EB300394DD7 /* ViewController.h */,
+				EFFE6E17146A3EB300394DD7 /* ViewController.m */,
+				EFFE6E19146A3EB300394DD7 /* ViewController_iPhone.xib */,
+				EFFE6E1C146A3EB300394DD7 /* ViewController_iPad.xib */,
+				EFFE6E0B146A3EB300394DD7 /* Supporting Files */,
+			);
+			path = "Animal Match";
+			sourceTree = "<group>";
+		};
+		EFFE6E0B146A3EB300394DD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE6E62146BEB0100394DD7 /* sound */,
+				EFFE6E5B146BEAC800394DD7 /* image */,
+				EFFE6E2A146A558000394DD7 /* animal_image */,
+				EFFE6E0C146A3EB300394DD7 /* Animal Match-Info.plist */,
+				EFFE6E0D146A3EB300394DD7 /* InfoPlist.strings */,
+				EFFE6E10146A3EB300394DD7 /* main.m */,
+				EFFE6E12146A3EB300394DD7 /* Animal Match-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFFE6E2A146A558000394DD7 /* animal_image */ = {
+			isa = PBXGroup;
+			children = (
+				EF356BA9146C0962000E12C6 /* IMG_SIL_곰.png */,
+				EF356BAA146C0962000E12C6 /* IMG_SIL_새.png */,
+				EF356BAB146C0962000E12C6 /* IMG_SIL_낙타.png */,
+				EF356BAC146C0962000E12C6 /* IMG_SIL_코끼리.png */,
+				EF356BAD146C0962000E12C6 /* IMG_SIL_기린.png */,
+				EF356BAE146C0962000E12C6 /* IMG_SIL_하마.png */,
+				EF356BAF146C0962000E12C6 /* IMG_SIL_해파리.png */,
+				EF356BB0146C0962000E12C6 /* IMG_SIL_표범.png */,
+				EF356BB1146C0962000E12C6 /* IMG_SIL_사자.png */,
+				EF356BB2146C0962000E12C6 /* IMG_SIL_원숭이.png */,
+				EF356BB3146C0962000E12C6 /* IMG_SIL_팽귄.png */,
+				EF356BB4146C0962000E12C6 /* IMG_SIL_북극곰.png */,
+				EF356BB5146C0962000E12C6 /* IMG_SIL_코뿔소.png */,
+				EF356BB6146C0962000E12C6 /* IMG_SIL_해마.png */,
+				EF356BB7146C0962000E12C6 /* IMG_SIL_뱀.png */,
+				EF356BB8146C0962000E12C6 /* IMG_SIL_호랑이.png */,
+				EF356BB9146C0962000E12C6 /* IMG_SIL_거북이.png */,
+				EF356BBA146C0962000E12C6 /* IMG_SIL_바다거북.png */,
+				EF356BBB146C0962000E12C6 /* IMG_SIL_고래.png */,
+				EF356BBC146C0962000E12C6 /* IMG_SIL_얼룩말.png */,
+				EF356BBD146C0962000E12C6 /* IMG_TRANS_곰.png */,
+				EF356BBE146C0962000E12C6 /* IMG_TRANS_새.png */,
+				EF356BBF146C0962000E12C6 /* IMG_TRANS_낙타.png */,
+				EF356BC0146C0962000E12C6 /* IMG_TRANS_코끼리.png */,
+				EF356BC1146C0962000E12C6 /* IMG_TRANS_기린.png */,
+				EF356BC2146C0962000E12C6 /* IMG_TRANS_하마.png */,
+				EF356BC3146C0962000E12C6 /* IMG_TRANS_해파리.png */,
+				EF356BC4146C0962000E12C6 /* IMG_TRANS_표범.png */,
+				EF356BC5146C0962000E12C6 /* IMG_TRANS_사자.png */,
+				EF356BC6146C0962000E12C6 /* IMG_TRANS_원숭이.png */,
+				EF356BC7146C0962000E12C6 /* IMG_TRANS_팽귄.png */,
+				EF356BC8146C0962000E12C6 /* IMG_TRANS_북극곰.png */,
+				EF356BC9146C0962000E12C6 /* IMG_TRANS_코뿔소.png */,
+				EF356BCA146C0962000E12C6 /* IMG_TRANS_해마.png */,
+				EF356BCB146C0962000E12C6 /* IMG_TRANS_뱀.png */,
+				EF356BCC146C0962000E12C6 /* IMG_TRANS_호랑이.png */,
+				EF356BCD146C0962000E12C6 /* IMG_TRANS_거북이.png */,
+				EF356BCE146C0962000E12C6 /* IMG_TRANS_바다거북.png */,
+				EF356BCF146C0962000E12C6 /* IMG_TRANS_고래.png */,
+				EF356BD0146C0962000E12C6 /* IMG_TRANS_얼룩말.png */,
+			);
+			path = animal_image;
+			sourceTree = "<group>";
+		};
+		EFFE6E5B146BEAC800394DD7 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				EFFE6E5C146BEAC800394DD7 /* angry_monkey.png */,
+				EFFE6E5D146BEAC800394DD7 /* smile.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		EFFE6E62146BEB0100394DD7 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				EFC1A5AD1582ED2A00357431 /* intro.mp3 */,
+				EFFE6E63146BEB0100394DD7 /* Clapping Crowd Studio 01.mp3 */,
+				EFFE6E64146BEB0100394DD7 /* Kids Cheering.mp3 */,
+				EFFE6E65146BEB0100394DD7 /* O.mp3 */,
+				EFFE6E66146BEB0100394DD7 /* X.mp3 */,
+				EFFE6E67146BEB0100394DD7 /* X2.mp3 */,
+			);
+			path = sound;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFFE6DFF146A3EB300394DD7 /* Animal Match */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFFE6E21146A3EB300394DD7 /* Build configuration list for PBXNativeTarget "Animal Match" */;
+			buildPhases = (
+				EFFE6DFC146A3EB300394DD7 /* Sources */,
+				EFFE6DFD146A3EB300394DD7 /* Frameworks */,
+				EFFE6DFE146A3EB300394DD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animal Match";
+			productName = "Animal Match";
+			productReference = EFFE6E00146A3EB300394DD7 /* Animal Match.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFFE6DF7146A3EB200394DD7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EFFE6DFA146A3EB200394DD7 /* Build configuration list for PBXProject "Animal Match" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EFFE6DF5146A3EB200394DD7;
+			productRefGroup = EFFE6E01146A3EB300394DD7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFFE6DFF146A3EB300394DD7 /* Animal Match */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFFE6DFE146A3EB300394DD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFE6E0F146A3EB300394DD7 /* InfoPlist.strings in Resources */,
+				EFFE6E1B146A3EB300394DD7 /* ViewController_iPhone.xib in Resources */,
+				EFFE6E1E146A3EB300394DD7 /* ViewController_iPad.xib in Resources */,
+				EFFE6E5E146BEAC800394DD7 /* angry_monkey.png in Resources */,
+				EFFE6E5F146BEAC800394DD7 /* smile.png in Resources */,
+				EFFE6E68146BEB0100394DD7 /* Clapping Crowd Studio 01.mp3 in Resources */,
+				EFFE6E69146BEB0100394DD7 /* Kids Cheering.mp3 in Resources */,
+				EFFE6E6A146BEB0100394DD7 /* O.mp3 in Resources */,
+				EFFE6E6B146BEB0100394DD7 /* X.mp3 in Resources */,
+				EFFE6E6C146BEB0100394DD7 /* X2.mp3 in Resources */,
+				EF356BD1146C0962000E12C6 /* IMG_SIL_곰.png in Resources */,
+				EF356BD2146C0962000E12C6 /* IMG_SIL_새.png in Resources */,
+				EF356BD3146C0962000E12C6 /* IMG_SIL_낙타.png in Resources */,
+				EF356BD4146C0962000E12C6 /* IMG_SIL_코끼리.png in Resources */,
+				EF356BD5146C0962000E12C6 /* IMG_SIL_기린.png in Resources */,
+				EF356BD6146C0962000E12C6 /* IMG_SIL_하마.png in Resources */,
+				EF356BD7146C0962000E12C6 /* IMG_SIL_해파리.png in Resources */,
+				EF356BD8146C0962000E12C6 /* IMG_SIL_표범.png in Resources */,
+				EF356BD9146C0962000E12C6 /* IMG_SIL_사자.png in Resources */,
+				EF356BDA146C0962000E12C6 /* IMG_SIL_원숭이.png in Resources */,
+				EF356BDB146C0962000E12C6 /* IMG_SIL_팽귄.png in Resources */,
+				EF356BDC146C0962000E12C6 /* IMG_SIL_북극곰.png in Resources */,
+				EF356BDD146C0962000E12C6 /* IMG_SIL_코뿔소.png in Resources */,
+				EF356BDE146C0962000E12C6 /* IMG_SIL_해마.png in Resources */,
+				EF356BDF146C0962000E12C6 /* IMG_SIL_뱀.png in Resources */,
+				EF356BE0146C0962000E12C6 /* IMG_SIL_호랑이.png in Resources */,
+				EF356BE1146C0962000E12C6 /* IMG_SIL_거북이.png in Resources */,
+				EF356BE2146C0962000E12C6 /* IMG_SIL_바다거북.png in Resources */,
+				EF356BE3146C0962000E12C6 /* IMG_SIL_고래.png in Resources */,
+				EF356BE4146C0962000E12C6 /* IMG_SIL_얼룩말.png in Resources */,
+				EF356BE5146C0962000E12C6 /* IMG_TRANS_곰.png in Resources */,
+				EF356BE6146C0962000E12C6 /* IMG_TRANS_새.png in Resources */,
+				EF356BE7146C0962000E12C6 /* IMG_TRANS_낙타.png in Resources */,
+				EF356BE8146C0962000E12C6 /* IMG_TRANS_코끼리.png in Resources */,
+				EF356BE9146C0962000E12C6 /* IMG_TRANS_기린.png in Resources */,
+				EF356BEA146C0962000E12C6 /* IMG_TRANS_하마.png in Resources */,
+				EF356BEB146C0962000E12C6 /* IMG_TRANS_해파리.png in Resources */,
+				EF356BEC146C0962000E12C6 /* IMG_TRANS_표범.png in Resources */,
+				EF356BED146C0962000E12C6 /* IMG_TRANS_사자.png in Resources */,
+				EF356BEE146C0962000E12C6 /* IMG_TRANS_원숭이.png in Resources */,
+				EF356BEF146C0962000E12C6 /* IMG_TRANS_팽귄.png in Resources */,
+				EF356BF0146C0962000E12C6 /* IMG_TRANS_북극곰.png in Resources */,
+				EF356BF1146C0962000E12C6 /* IMG_TRANS_코뿔소.png in Resources */,
+				EF356BF2146C0962000E12C6 /* IMG_TRANS_해마.png in Resources */,
+				EF356BF3146C0962000E12C6 /* IMG_TRANS_뱀.png in Resources */,
+				EF356BF4146C0962000E12C6 /* IMG_TRANS_호랑이.png in Resources */,
+				EF356BF5146C0962000E12C6 /* IMG_TRANS_거북이.png in Resources */,
+				EF356BF6146C0962000E12C6 /* IMG_TRANS_바다거북.png in Resources */,
+				EF356BF7146C0962000E12C6 /* IMG_TRANS_고래.png in Resources */,
+				EF356BF8146C0962000E12C6 /* IMG_TRANS_얼룩말.png in Resources */,
+				EFC66B32146D5363000BAC81 /* Icon.png in Resources */,
+				EFC66B34146D5368000BAC81 /* Icon@2x.png in Resources */,
+				EFC66B36146D536F000BAC81 /* Default.png in Resources */,
+				EFC66B38146D5375000BAC81 /* Default@2x.png in Resources */,
+				EFC66B3A146D538D000BAC81 /* Icon_72x72.png in Resources */,
+				EFC66B3C146D53A6000BAC81 /* Default-Portrait~ipad.png in Resources */,
+				EF22059E154FE43B00BF6267 /* 거북이.mp3 in Resources */,
+				EF22059F154FE43B00BF6267 /* 고래.mp3 in Resources */,
+				EF2205A0154FE43B00BF6267 /* 곰.mp3 in Resources */,
+				EF2205A1154FE43B00BF6267 /* 기린.mp3 in Resources */,
+				EF2205A2154FE43B00BF6267 /* 낙타.mp3 in Resources */,
+				EF2205A3154FE43B00BF6267 /* 바다거북.mp3 in Resources */,
+				EF2205A4154FE43B00BF6267 /* 뱀.mp3 in Resources */,
+				EF2205A5154FE43B00BF6267 /* 북극곰.mp3 in Resources */,
+				EF2205A6154FE43B00BF6267 /* 사자.mp3 in Resources */,
+				EF2205A7154FE43B00BF6267 /* 새.mp3 in Resources */,
+				EF2205A8154FE43B00BF6267 /* 얼룩말.mp3 in Resources */,
+				EF2205A9154FE43B00BF6267 /* 원숭이.mp3 in Resources */,
+				EF2205AA154FE43B00BF6267 /* 코끼리.mp3 in Resources */,
+				EF2205AB154FE43B00BF6267 /* 코뿔소.mp3 in Resources */,
+				EF2205AC154FE43B00BF6267 /* 팽귄.mp3 in Resources */,
+				EF2205AD154FE43B00BF6267 /* 표범.mp3 in Resources */,
+				EF2205AE154FE43B00BF6267 /* 하마.mp3 in Resources */,
+				EF2205AF154FE43B00BF6267 /* 해마.mp3 in Resources */,
+				EF2205B0154FE43B00BF6267 /* 해파리.mp3 in Resources */,
+				EF2205B1154FE43B00BF6267 /* 호랑이.mp3 in Resources */,
+				EFC1A5AE1582ED2A00357431 /* intro.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFFE6DFC146A3EB300394DD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFFE6E11146A3EB300394DD7 /* main.m in Sources */,
+				EFFE6E15146A3EB300394DD7 /* AppDelegate.m in Sources */,
+				EFFE6E18146A3EB300394DD7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFFE6E0D146A3EB300394DD7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFE6E0E146A3EB300394DD7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EFFE6E19146A3EB300394DD7 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFE6E1A146A3EB300394DD7 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		EFFE6E1C146A3EB300394DD7 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFFE6E1D146A3EB300394DD7 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFC66B29146D42F2000BAC81 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				CODE_SIGN_IDENTITY = "iPhone Distribution: SunDong Lee";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: SunDong Lee";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "CC2F3F46-CDAD-4B07-9E51-EFECADB22CB4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CC2F3F46-CDAD-4B07-9E51-EFECADB22CB4";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		EFC66B2A146D42F2000BAC81 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Match/Animal Match-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Animal Match/Animal Match-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Desktop/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		EFFE6E1F146A3EB300394DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv7,
+					armv6,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFFE6E20146A3EB300394DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = (
+					armv6,
+					armv7,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_THUMB_SUPPORT = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFFE6E22146A3EB300394DD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Match/Animal Match-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Animal Match/Animal Match-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Desktop/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EFFE6E23146A3EB300394DD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Animal Match/Animal Match-Prefix.pch";
+				GCC_THUMB_SUPPORT = NO;
+				INFOPLIST_FILE = "Animal Match/Animal Match-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../../../Desktop/GoogleAdMobAdsSDK\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFFE6DFA146A3EB200394DD7 /* Build configuration list for PBXProject "Animal Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFE6E1F146A3EB300394DD7 /* Debug */,
+				EFFE6E20146A3EB300394DD7 /* Release */,
+				EFC66B29146D42F2000BAC81 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFFE6E21146A3EB300394DD7 /* Build configuration list for PBXNativeTarget "Animal Match" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFFE6E22146A3EB300394DD7 /* Debug */,
+				EFFE6E23146A3EB300394DD7 /* Release */,
+				EFC66B2A146D42F2000BAC81 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFFE6DF7146A3EB200394DD7 /* Project object */;
+}
